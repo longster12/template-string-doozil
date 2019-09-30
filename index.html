@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>doozil-order email</title>
+</head>
+
+<body>
+<div class="emailOrder">
+
+</div>
+<script>
+
+    var displayOrder = document.getElementsByClassName("emailOrder");
+    function doozilOrder(orderName, orderPrice) {
+        var shipping = .99;
+        console.log (`
+            Thanks for your order ${orderName}
+            Cost = £${orderPrice}
+            Shipping = £${shipping}
+            Total Cost: ${orderPrice + shipping}
+            `); console.log()
+    }
+    doozilOrder("gio",200,);
+
+
+</script>
+</body>
+</html>
